@@ -1,0 +1,19 @@
+--------------------------------
+	Core Features
+--------------------------------
+
+- Mole show it self 
+	> When hitted it will hide immediately > plays the sound 'Pluck.wav'
+	> Add score > [+1 per mole] > plays the sound 'Coin.wav'
+
+
+
+
+
+##############################	
+	Beginner Mode
+###############################
+
+
+- Mole hide are in stagnant position
+- 30 secs to accomplish the round
