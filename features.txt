@@ -17,3 +17,8 @@
 
 - Mole hide are in stagnant position
 - 30 secs to accomplish the round
+
+
+
+-- dead posenet
+-- hindi diretso detect sa phone(pixels) ung detection, d ko alam pano ko dedetect
