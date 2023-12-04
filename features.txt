@@ -2,23 +2,18 @@
 	Core Features
 --------------------------------
 
-- Mole show it self 
-	> When hitted it will hide immediately > plays the sound 'Pluck.wav'
-	> Add score > [+1 per mole] > plays the sound 'Coin.wav'
 
 
+To Do:
+- Modes(may ui pero walang code)
+- Wala pang sound ung evil mole
+- Background music
+- Start game after 3 second? d ko magawa ung opacity shi
 
-
-
-##############################	
-	Beginner Mode
-###############################
-
-
-- Mole hide are in stagnant position
-- 30 secs to accomplish the round
-
-
-
--- dead posenet
--- hindi diretso detect sa phone(pixels) ung detection, d ko alam pano ko dedetect
+Done:
+- Mole reposition
+- Timer till game over
+- Reset click
+- When hitted it will hide immediately
+- Add/decrease score > [+1 per mole] > plays the sound 'Coin.wav'
+- Saving leader board + displaying leader board
