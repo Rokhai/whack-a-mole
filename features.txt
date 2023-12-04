@@ -20,3 +20,10 @@ Done:
 - When hitted it will hide immediately
 - Add/decrease score > [+1 per mole] > plays the sound 'Coin.wav'
 - Saving leader board + displaying leader board
+
+
+sa game features ung nasa taas:
+extra changes:
+- added a session tag for database - parang hassle ung palipat lipat ng name
+- may security measure na sa main menu pero sa game + leaderboard screen wala pa
+- 
