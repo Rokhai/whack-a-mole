@@ -9,6 +9,9 @@ To Do:
 - Wala pang sound ung evil mole
 - Background music
 - Start game after 3 second? d ko magawa ung opacity shi
+- nasasave lang ung leader board kapag less than 10(bug)
+- untested
+
 
 Done:
 - Mole reposition
