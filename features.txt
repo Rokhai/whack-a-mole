@@ -27,3 +27,19 @@ extra changes:
 - added a session tag for database - parang hassle ung palipat lipat ng name
 - may security measure na sa main menu pero sa game + leaderboard screen wala pa
 - 
+
+
+
+==============================
+Revised Game Mechanics
+==============================
+
+Ghost sprite will chase the mole
+
+- When the mole hasn't been whack it will relocate it self
+- To gain points Player must whack the mole, otherwise none
+	- When whacked it will relocate it self
+- When ghost collided to the mole it will steal 1 pt
+
+
+--------------------------------
