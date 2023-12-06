@@ -5,12 +5,15 @@
 
 
 To Do:
-- Modes(may ui pero walang code)
-- Wala pang sound ung evil mole
-- Background music
-- Start game after 3 second? d ko magawa ung opacity shi
+- Modes(may ui pero walang code) <--- tentative
+- Wala pang sound ung evil mole <-- lapa
+- Background music <-- slyt
+- Start game after 3 second? d ko magawa ung opacity shi <<<-- sample 3seconds tentative
 - nasasave lang ung leader board kapag less than 10(bug)
 - untested
+
+(urgent)
+- need to check the current list if the score of the current user is, can be include in the hi-score list
 
 
 Done:
