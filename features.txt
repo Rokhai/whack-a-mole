@@ -5,15 +5,10 @@
 
 
 To Do:
-- Modes(may ui pero walang code) <--- tentative
-- Wala pang sound ung evil mole <-- lapa
-- Background music <-- slyt
-- Start game after 3 second? d ko magawa ung opacity shi <<<-- sample 3seconds tentative
-- nasasave lang ung leader board kapag less than 10(bug)
-- untested
-
-(urgent)
-- need to check the current list if the score of the current user is, can be include in the hi-score list
+- ui
+- Wala pang sound ung evil mole 
+- Change bg music or lower the volumn
+- Opacity for game start
 
 
 Done:
@@ -23,26 +18,53 @@ Done:
 - When hitted it will hide immediately
 - Add/decrease score > [+1 per mole] > plays the sound 'Coin.wav'
 - Saving leader board + displaying leader board
-
+- na rereposition na ung mole kapag na click - hindi na glitchy yey
+- personal high score
+- modes
+- evil mole
 
 sa game features ung nasa taas:
 extra changes:
 - added a session tag for database - parang hassle ung palipat lipat ng name
 - may security measure na sa main menu pero sa game + leaderboard screen wala pa
-- 
+
 
 
 
 ==============================
-Revised Game Mechanics
+Game Mechanics
 ==============================
 
-Ghost sprite will chase the mole
+Easy Mode(points gain = +1; points deducted= -1):
+- 1 ghost moving in random direction
+- 1 mole hit it to get 1 point
 
-- When the mole hasn't been whack it will relocate it self
-- To gain points Player must whack the mole, otherwise none
-	- When whacked it will relocate it self
-- When ghost collided to the mole it will steal 1 pt
+Medium Mode(points gain = +2; points deducted= -1):
+- Easy mode with
+- 1 Dud mole (hit it to -1 point)
+- another 1 ghost moving in random direction
 
+Hard(still unplayable)(points gain = +5; points deducted= -2):
+- Medium mode but with
+- 1 red ghost(following the mole around) - increased in speed every click
+- Another 1 ghost moving in random direction
+
+
+
+Relocate time:
+Easy mode = 1000
+Medium mode = 900
+Hard mode = 800 - more than this, its very hard to react to
+
+
+Ghost mechanics:
+- if touched minus the deduction
+- if collided with good mole minus the deduction
+
+Dud/evil mole mechanics
+- if touched minus the deduction
+
+Good mole mechanics
+- if touch add the points earned
 
 --------------------------------
